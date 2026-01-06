@@ -50,12 +50,16 @@
     margin-bottom: 30px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* *main style */
 header {
     background-color: #FFF8F3;
     background: url("./images/developer.png"), url("./images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 38px 23px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -199,7 +203,7 @@ nav #banner-image img {
     gap: 71px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px 0;
 }
 
@@ -209,7 +213,7 @@ nav #banner-image img {
     margin-bottom: 30px;
 }
 
-.resume-container .resume-card{
+.resume-container .resume-card {
     max-width: 511px;
     margin-right: 47px;
 }
@@ -219,14 +223,60 @@ nav #banner-image img {
     color: #474747;
     margin-bottom: 20px;
 }
-.resume-card .card-info{
+
+.resume-card .card-info {
     font-size: 20px;
     font-weight: 600;
     color: #D9D9D9;
     margin-bottom: 10px;
 }
+
 .resume-card .card-text {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+footer{
+    margin-top:113px ;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    font-size: 16px;
+    color:#474747;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.footer-container .icon a{
+    margin-right: 24px;
+}
+
+.footer-container .form input[type="text"] , 
+.footer-container .form textarea {
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575;
 }
