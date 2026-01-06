@@ -122,7 +122,9 @@ nav #banner-image img {
     margin-bottom: 0px;
 }
 
-#about {
+#about,
+#skills,
+#resume {
     padding-top: 130px;
 }
 
@@ -151,10 +153,6 @@ nav #banner-image img {
 .about-info .info-card h4 {
     font-size: 20px;
     font-weight: 600;
-}
-
-#skills {
-    padding-top: 130px;
 }
 
 #skills .skills-container {
@@ -191,4 +189,44 @@ nav #banner-image img {
     color: #757575;
     line-height: 28px;
     margin-bottom: 30px;
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 71px;
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+
+.resume-container .section-title {
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container .resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #D9D9D9;
+    margin-bottom: 10px;
+}
+.resume-card .card-text {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
