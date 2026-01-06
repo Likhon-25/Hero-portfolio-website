@@ -29,17 +29,21 @@
     color: white;
     cursor: pointer;
 }
-.section-heading{
+
+.section-heading {
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
-.section-heading h2{
+
+.section-heading h2 {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 30px;
 }
-.section-heading p{
+
+.section-heading p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
@@ -78,23 +82,26 @@ nav .menu li a {
     text-decoration: none;
 }
 
-#banner{
+#banner {
     /* border: 1px solid red; */
     margin: 47px 38px 0px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#banner .banner-content{
+
+#banner .banner-content {
     max-width: 585px;
 }
-#banner .banner-content h2{
- font-size: 45px;
- font-weight: 600;
- color: #474747;
- margin-bottom: 5px;
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
 }
-#banner .banner-content h1{
+
+#banner .banner-content h1 {
     font-size: 78px;
     /* font-size: 85px; */
     font-weight: bold;
@@ -102,20 +109,20 @@ nav .menu li a {
     margin-bottom: 20px;
 }
 
-#banner .banner-content p{
+#banner .banner-content p {
     font: size 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
-nav #banner-image img{
+nav #banner-image img {
     max-width: 585px;
     vertical-align: middle;
     margin-bottom: 0px;
 }
 
-#about{
+#about {
     padding-top: 130px;
 }
 
@@ -128,19 +135,60 @@ nav #banner-image img{
     padding: 131px 156px;
 }
 
-#about .about-container .about-info{
+#about .about-container .about-info {
     display: flex;
     justify-content: space-between;
     /* line-height: 30px; */
 }
 
-.about-info .info-card p{
+.about-info .info-card p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.about-info .info-card h4{
+
+.about-info .info-card h4 {
     font-size: 20px;
     font-weight: 600;
+}
+
+#skills {
+    padding-top: 130px;
+}
+
+#skills .skills-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.skills-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-card {
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000021;
+}
+
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
 }
