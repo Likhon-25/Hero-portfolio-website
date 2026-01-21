@@ -159,6 +159,7 @@ nav #banner-image img {
     font-weight: 600;
 }
 
+
 #skills .skills-container {
     width: 71%;
     max-width: 1140px;
@@ -237,40 +238,42 @@ nav #banner-image img {
     line-height: 28px;
 }
 
-footer{
-    margin-top:113px ;
+footer {
+    margin-top: 113px;
     background-color: #FFF8F3;
     padding: 130px 0;
 }
 
-footer .footer-container{
+footer .footer-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     gap: 116px;
 }
-.footer-container .social{
+
+.footer-container .social {
     max-width: 562px;
 }
 
-.footer-container h2{
+.footer-container h2 {
     font-size: 35px;
     color: #181818;
     margin-bottom: 20px;
 }
-.footer-container .social p{
+
+.footer-container .social p {
     font-size: 16px;
-    color:#474747;
+    color: #474747;
     margin-bottom: 30px;
     line-height: 28px;
 }
 
-.footer-container .icon a{
+.footer-container .icon a {
     margin-right: 24px;
 }
 
-.footer-container .form input[type="text"] , 
+.footer-container .form input[type="text"],
 .footer-container .form textarea {
     width: 461px;
     padding: 18px 30px;
@@ -279,4 +282,102 @@ footer .footer-container{
     border-radius: 5px;
 
     color: #757575;
+}
+
+@media screen and (max-width:576px) {
+
+    /* ? nav section responsive */
+    nav {
+        flex-direction: column;
+    }
+
+    /* ?banner section responsive */
+
+    header {
+        background: url("./images/developer.pn"), url("./images/header_bg.png"), #FFF8F3;
+        background-position: left bottom, bottom right;
+        background-repeat: no-repeat;
+    }
+
+    #banner {
+
+        margin: 47px 38px 0px 130px;
+        flex-direction: column;
+    }
+
+    nav #banner-image img {
+        max-width: 100%;
+    }
+
+
+    /* ? about section responsive  */
+    #about .about-container {
+        padding: 30px 20px;
+    }
+
+    #about .about-container .about-info {
+        flex-direction: column;
+    }
+
+    .about-info .info-card p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .about-info .info-card h4 {
+        font-size: 15px;
+    }
+
+
+    /* ? Skills Section responsive start */
+
+
+    .skills-container .skill-box {
+        flex-direction: column;
+    }
+
+    .skill-card {
+        padding: 20px;
+    }
+
+
+    /* ? Resume section style start */
+
+    #resume .resume-container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .resume-container .resume-card {
+        margin-right: 0px;
+    }
+
+
+
+    /* ? Footer section responsvie style start */
+
+    footer {
+        margin-top: 113px;
+        background-color: #FFF8F3;
+        padding: 130px 0;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container .icon a {
+        margin-right: 24px;
+    }
+
+    .footer-container .form input[type="text"],
+    .footer-container .form textarea {
+        width: 261px;
+        padding: 8px 15px;
+    }
+
+
+
 }
